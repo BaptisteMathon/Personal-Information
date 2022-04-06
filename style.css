@@ -1,0 +1,120 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1
+{
+    text-decoration: underline;
+    font-size: 2.2em;
+    font-family: Century Gothic	
+    ;
+}
+
+nav ul
+{
+    list-style: none;
+}
+nav ul a
+{
+    text-decoration: none;
+}
+nav ul #li
+{
+    width: 150px;
+    height: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.Part
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Part1
+{
+    padding-right: 30px;
+    padding-left: -30px;
+}
+
+.Instagram
+{
+    margin-bottom: 25%;
+    background: url("Img/Instagram.png");
+    background-size: cover;
+}
+.Twitter
+{
+    background: url("Img/Twitter.png");
+    background-size: cover;
+}
+.LinkedIn
+{
+    margin-bottom: 25%;
+    background: url("Img/LinkedIn.png");
+    background-size: cover;
+}
+.Discord
+{
+    background: url("Img/Discord.png");
+    background-size: cover;
+}
+
+
+.top
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15% 0;
+    font-style: italic;
+    font-size: 1.1em;
+    font-family: Consolas;
+    letter-spacing: -1px;
+}
+.mail .i
+{
+    font-style: normal;
+    text-decoration: underline;
+    padding-right: 3%;
+}
+
+.bottom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.GitHub
+{
+    background-color: black;
+    width: 330px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background: url("Img/GitHub.png");
+    background-size: cover;
+}
